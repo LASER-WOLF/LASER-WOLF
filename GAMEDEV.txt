@@ -28,18 +28,19 @@
  - PICO-8      https://www.youtube.com/playlist?list=PLUznfNKscdcNqvEYwCTjIIRpgd-MUwxc-
  - NES         https://www.youtube.com/playlist?list=PLUznfNKscdcPw5CnWLlj42EjGwv9AwlEK
  - Coding      https://www.youtube.com/playlist?list=PLUznfNKscdcN4GoQADvhbC8ER_ny3Wl-S
+ - C++         https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
 
 
 # COURSES:
  - Gustavo Pezzi, Pikuma
-    + Master the Linux Terminal & Bash Shell        https://pikuma.com/courses/linux-unix-command-line-bash-shell
-    + Understanding Bitshifting Operations          https://pikuma.com/courses/bit-shifting-operator-tutorial
-    + NES Programming with 6502 Assembly            https://pikuma.com/courses/nes-game-programming-tutorial
-    + Raycasting Engine Programming with C          https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript
-    + 3D Computer Graphics Programming              https://pikuma.com/courses/learn-3d-computer-graphics-programming
-    + C++ Game Engine Programming                   https://pikuma.com/courses/cpp-2d-game-engine-development
- - Jasper Flick, Catlike Coding (Unity/Godot)       https://catlikecoding.com/
- - GDQuest (Godot)                                  https://www.gdquest.com/
+    + Master the Linux Terminal & Bash Shell   https://pikuma.com/courses/linux-unix-command-line-bash-shell
+    + Understanding Bitshifting Operations     https://pikuma.com/courses/bit-shifting-operator-tutorial
+    + NES Programming with 6502 Assembly       https://pikuma.com/courses/nes-game-programming-tutorial
+    + Raycasting Engine Programming with C     https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript
+    + 3D Computer Graphics Programming         https://pikuma.com/courses/learn-3d-computer-graphics-programming
+    + C++ Game Engine Programming              https://pikuma.com/courses/cpp-2d-game-engine-development
+ - Jasper Flick, Catlike Coding (Unity/Godot)  https://catlikecoding.com/
+ - GDQuest (Godot)                             https://www.gdquest.com/
 
 
 # BOOKS:
@@ -49,6 +50,12 @@
  - Real-Time Rendering, Fourth Edition                   https://www.realtimerendering.com/
  - GPU Gems #1 - #3                                      https://developer.nvidia.com/gpugems/gpugems
  - Brian W. Kernighan & Dennis M. Ritchie, C Programming Language, Second Edition
+ - Dylan Bennett, Game Development with PICO-8           https://mboffin.itch.io/gamedev-with-pico-8-issue1
+ - Arnaud De Bock, PICO-8 Fanzine
+    + Issue #1                                           https://sectordub.itch.io/pico-8-fanzine-1
+    + Issue #2                                           https://sectordub.itch.io/pico-8-fanzine-2
+    + Issue #3                                           https://sectordub.itch.io/pico-8-fanzine-3
+    + Issue #4                                           https://sectordub.itch.io/pico-8-fanzine-4
 
 
 # PAPERS & ARTICLES:
@@ -65,11 +72,14 @@
  - Chris Hecker, Texture Mapping Technical Articles                      https://www.chrishecker.com/Miscellaneous_Technical_Articles
  - Kok-Lim Low, Perspective-Correct Interpolation                        https://s3.amazonaws.com/thinkific/file_uploads/167815/attachments/c06/b72/f58/KokLimLow-PerspectiveCorrectInterpolation.pdf
  - Kenneth I. Joy, On-Line Computer Graphics Notes: Clipping             https://import.cdn.thinkific.com/167815/JoyKennethClipping-200905-175314.pdf
+ - Peter Shirley, Ray Tracing in One Weekend                             https://raytracing.github.io/books/RayTracingInOneWeekend.html
 
 
 # WEBSITES:
- - Red Blob Games  https://www.redblobgames.com/
- - Immersive Math  http://immersivemath.com
+ - Red Blob Games   https://www.redblobgames.com/
+ - Basic Game Math  https://gamemath.com/
+ - Immersive Math   http://immersivemath.com
+ - Learn OpenGL     https://learnopengl.com/
 
 
 # PODCASTS:
@@ -87,11 +97,27 @@
  - Godot Wild Jam!     https://godotwildjam.com/
 
 
-# ASSETS:
- - Mixed, itch.io        https://itch.io/game-assets/free
- - Mixed, Kenney         https://kenney.nl/assets
- - 3D models, Sketchfab  https://sketchfab.com/
- - Lospec Palette list   https://lospec.com/palette-list
+# C & C++ LIBRARIES:
+ - Windowing system, hardware access
+    + (C)   SDL         https://github.com/libsdl-org/SDL
+    + (C++) SFML        https://github.com/SFML/SFML
+    + (C)   raylib      https://github.com/raysan5/raylib
+    + (C)   GLFW        https://github.com/glfw/glfw
+ - Physics
+    + (C++) Box2D       https://github.com/erincatto/box2d
+    + (C)   Chipmunk2D  https://github.com/slembcke/Chipmunk2D
+    + (C++) Bullet      https://github.com/bulletphysics/bullet3
+ - UI
+    + (C++) DearImGui   https://github.com/ocornut/imgui
+ - Logging
+    + (C++) SPDLog      https://github.com/gabime/spdlog
+    + (C)   Log.c       https://github.com/rxi/log.c
+ - ECS
+    + (C++) EnTT        https://github.com/skypjack/entt
+    + (C)   Flecs       https://github.com/SanderMertens/flecs
+ - Other
+    + (C++) glm         https://github.com/g-truc/glm
+    + (C++) Sol         https://github.com/ThePhD/sol2
 
 
 # GODOT PLUGINS:
@@ -116,3 +142,12 @@
  - Crocotile 3D    https://crocotile3d.com/
  - Cascadeur       https://cascadeur.com/
  - Instant Meshes  https://github.com/wjakob/instant-meshes
+
+
+# ASSETS:
+ - Fonts, The Ultimate Oldschool PC Font Pack  https://int10h.org/oldschool-pc-fonts/
+ - Mixed, itch.io                              https://itch.io/game-assets/free
+ - Mixed, Kenney                               https://kenney.nl/assets
+ - 3D models, Sketchfab                        https://sketchfab.com/
+ - Lospec Palette list                         https://lospec.com/palette-list
+

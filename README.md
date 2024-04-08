@@ -1,6 +1,7 @@
-### Hi there 👋
+Hello hello & welcome,
+feel free to take a look at [GAMEDEV.txt](GAMEDEV.txt) for a list of game development resources.
 
-<!--
+<!--### Hi there 👋
 **LASER-WOLF/LASER-WOLF** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
