@@ -44,12 +44,12 @@
 
 
 # BOOKS & ZINES:
+ - Brian W. Kernighan & Dennis M. Ritchie, C Programming Language, Second Edition
  - Robert Nystrom, Game Programming Patterns             https://gameprogrammingpatterns.com/contents.html
  - Eric Lengyel, Foundations of Game Engine Development  https://foundationsofgameenginedev.com/
  - Michael Abrash, Graphics Programming Black Book       https://www.drdobbs.com/parallel/graphics-programming-black-book/184404919
  - Real-Time Rendering, Fourth Edition                   https://www.realtimerendering.com/
  - GPU Gems #1 - #3                                      https://developer.nvidia.com/gpugems/gpugems
- - Brian W. Kernighan & Dennis M. Ritchie, C Programming Language, Second Edition
  - Dylan Bennett, Game Development with PICO-8           https://mboffin.itch.io/gamedev-with-pico-8-issue1
  - Arnaud De Bock, PICO-8 Fanzine
     + Issue #1                                           https://sectordub.itch.io/pico-8-fanzine-1
