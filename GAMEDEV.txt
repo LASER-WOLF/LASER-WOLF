@@ -43,7 +43,7 @@
  - GDQuest (Godot)                             https://www.gdquest.com/
 
 
-# BOOKS:
+# BOOKS & ZINES:
  - Robert Nystrom, Game Programming Patterns             https://gameprogrammingpatterns.com/contents.html
  - Eric Lengyel, Foundations of Game Engine Development  https://foundationsofgameenginedev.com/
  - Michael Abrash, Graphics Programming Black Book       https://www.drdobbs.com/parallel/graphics-programming-black-book/184404919
@@ -98,7 +98,7 @@
 
 
 # C & C++ LIBRARIES:
- - Windowing system, hardware access
+ - Graphics, audio & hardware access
     + (C)   SDL         https://github.com/libsdl-org/SDL
     + (C++) SFML        https://github.com/SFML/SFML
     + (C)   raylib      https://github.com/raysan5/raylib
