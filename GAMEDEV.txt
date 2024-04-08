@@ -1,0 +1,118 @@
+////////////////////////////////////////////////////////////////////////////////
+// GAME DEVELOPMENT RESOURCES
+////////////////////////////////////////////////////////////////////////////////
+
+# DOCUMENTATION:
+ - Godot docs                          https://docs.godotengine.org/
+    + GDScript style guide             https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html
+ - Pygame docs                         https://www.pygame.org/docs/
+ - PEP 8: Style Guide for Python Code  https://peps.python.org/pep-0008/
+ - SDL Wiki                            https://wiki.libsdl.org/
+ - NESdev Wiki                         https://www.nesdev.org/wiki/
+
+
+# SOURCE CODE:
+ - (C)   Wolfenstein 3D  https://github.com/id-Software/wolf3d
+ - (C++) DOOM            https://github.com/id-Software/DOOM
+ - (C)   Quake           https://github.com/id-Software/Quake
+ - (C)   NetHack         https://github.com/NetHack/NetHack
+ - (C)   Angband         https://github.com/angband/angband
+ - (C++) Cataclysm-DDA   https://github.com/CleverRaven/Cataclysm-DDA
+
+
+# YOUTUBE PLAYLISTS:
+ - Gamedev #1  https://www.youtube.com/playlist?list=PLUznfNKscdcMenAaMby5wO1JI8bxJJpn1
+ - Gamedev #2  https://www.youtube.com/playlist?list=PLUznfNKscdcPwi9lqA-nCmzzGjvamtTFk
+ - Devlogs     https://www.youtube.com/playlist?list=PLUznfNKscdcPTyLIUIbY98FFfMp76GD3l
+ - Godot       https://www.youtube.com/playlist?list=PLUznfNKscdcNpHVcxUch_Xfsc6I8wu791
+ - PICO-8      https://www.youtube.com/playlist?list=PLUznfNKscdcNqvEYwCTjIIRpgd-MUwxc-
+ - NES         https://www.youtube.com/playlist?list=PLUznfNKscdcPw5CnWLlj42EjGwv9AwlEK
+ - Coding      https://www.youtube.com/playlist?list=PLUznfNKscdcN4GoQADvhbC8ER_ny3Wl-S
+
+
+# COURSES:
+ - Gustavo Pezzi, Pikuma
+    + Master the Linux Terminal & Bash Shell        https://pikuma.com/courses/linux-unix-command-line-bash-shell
+    + Understanding Bitshifting Operations          https://pikuma.com/courses/bit-shifting-operator-tutorial
+    + NES Programming with 6502 Assembly            https://pikuma.com/courses/nes-game-programming-tutorial
+    + Raycasting Engine Programming with C          https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript
+    + 3D Computer Graphics Programming              https://pikuma.com/courses/learn-3d-computer-graphics-programming
+    + C++ Game Engine Programming                   https://pikuma.com/courses/cpp-2d-game-engine-development
+ - Jasper Flick, Catlike Coding (Unity/Godot)       https://catlikecoding.com/
+ - GDQuest (Godot)                                  https://www.gdquest.com/
+
+
+# BOOKS:
+ - Robert Nystrom, Game Programming Patterns             https://gameprogrammingpatterns.com/contents.html
+ - Eric Lengyel, Foundations of Game Engine Development  https://foundationsofgameenginedev.com/
+ - Michael Abrash, Graphics Programming Black Book       https://www.drdobbs.com/parallel/graphics-programming-black-book/184404919
+ - Real-Time Rendering, Fourth Edition                   https://www.realtimerendering.com/
+ - GPU Gems #1 - #3                                      https://developer.nvidia.com/gpugems/gpugems
+ - Brian W. Kernighan & Dennis M. Ritchie, C Programming Language, Second Edition
+
+
+# PAPERS & ARTICLES:
+ - Gustavo Pezzi, Fundamental Math for Game Developers                   https://pikuma.com/blog/math-for-game-developers
+ - Glenn Fiedler, Fix Your Timestep!                                     https://gafferongames.com/post/fix_your_timestep/
+ - David Colson, How to make a simple entity-component-system in C++     https://www.david-colson.com/2020/02/09/making-a-simple-ecs.html
+ - David Colson, Building a PS1 style retro 3D renderer                  https://www.david-colson.com/2021/11/30/ps1-style-renderer.html
+ - Rasterization Rules & the Edge Function                               https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
+ - Microsoft Direct3D Rasterization Rules                                https://docs.microsoft.com/en-us/windows/win32/direct3d9/rasterization-rules#triangle-rasterization-rules
+ - Triangle rasterizer:
+    + (1/3) Juan Pineda, A Parallel Algorithm for Polygon Rasterization  https://www.cs.drexel.edu/~deb39/Classes/Papers/comp175-06-pineda.pdf
+    + (2/3) Fabian Giesen, Optimizing the basic rasterizer               https://fgiesen.wordpress.com/2013/02/10/optimizing-the-basic-rasterizer/
+    + (3/3) Kristoffer Dyrkorn, A fast and precise triangle rasterizer   https://kristoffer-dyrkorn.github.io/triangle-rasterizer/
+ - Chris Hecker, Texture Mapping Technical Articles                      https://www.chrishecker.com/Miscellaneous_Technical_Articles
+ - Kok-Lim Low, Perspective-Correct Interpolation                        https://s3.amazonaws.com/thinkific/file_uploads/167815/attachments/c06/b72/f58/KokLimLow-PerspectiveCorrectInterpolation.pdf
+ - Kenneth I. Joy, On-Line Computer Graphics Notes: Clipping             https://import.cdn.thinkific.com/167815/JoyKennethClipping-200905-175314.pdf
+
+
+# WEBSITES:
+ - Red Blob Games  https://www.redblobgames.com/
+ - Immersive Math  http://immersivemath.com
+
+
+# PODCASTS:
+ - Roguelike Radio  http://www.roguelikeradio.com/
+
+
+# COMMUNITIES:
+ - Reddit, Gamedev multireddit  https://www.reddit.com/user/laserwolf/m/gamedev/
+ - Discord, Godot Engine        https://discord.gg/4JBkykG
+ - Discord, PICO-8              https://discord.gg/nMVEeVFkVD
+
+
+# GAME JAMS:
+ - The 7DRL Challenge  https://7drl.com/
+ - Godot Wild Jam!     https://godotwildjam.com/
+
+
+# ASSETS:
+ - Mixed, itch.io        https://itch.io/game-assets/free
+ - Mixed, Kenney         https://kenney.nl/assets
+ - 3D models, Sketchfab  https://sketchfab.com/
+ - Lospec Palette list   https://lospec.com/palette-list
+
+
+# GODOT PLUGINS:
+ - Dialogic            https://github.com/coppolaemilio/dialogic
+ - JamCountdown        https://github.com/AndresGamboaA/JamCountdown
+ - ridiculous_coding   https://github.com/jotson/ridiculous_coding
+ - Godot Trail System  https://github.com/OBKF/Godot-Trail-System
+ - SmartShape2D        https://github.com/SirRamEsq/SmartShape2D
+ - HeightMap terrain   https://github.com/Zylann/godot_heightmap_plugin
+ - Scatter             https://github.com/HungryProton/scatter
+ - Godot input buffer  https://github.com/drkitt/godot-input-buffer
+ - Polyliner           https://github.com/Firepal/godot-polyliner
+ - Controller Icons    https://github.com/rsubtil/controller_icons
+
+
+# TOOLS:
+ - Godot           https://godotengine.org/
+ - Sublime Text    https://www.sublimetext.com/
+ - Blender         https://www.blender.org/
+ - treeIT          http://www.evolved-software.com/treeit/treeit
+ - gaea            https://quadspinner.com/
+ - Crocotile 3D    https://crocotile3d.com/
+ - Cascadeur       https://cascadeur.com/
+ - Instant Meshes  https://github.com/wjakob/instant-meshes
