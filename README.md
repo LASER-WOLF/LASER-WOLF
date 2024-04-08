@@ -1,5 +1,5 @@
-hello hello & welcome
+Hello hello & welcome ✨ ✨
 
 > [!TIP]
-> feel free to take a look at [GAMEDEV.txt](GAMEDEV.txt) for a list of game development resources.
+> Feel free to take a peek at [GAMEDEV.txt](GAMEDEV.txt) for a nice list of game development resources.
 
