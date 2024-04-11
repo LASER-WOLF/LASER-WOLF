@@ -81,6 +81,7 @@ gT               = go to prev tab
 
 x delete char (command mode)
 r replace char (command mode)
-+p paste from system clipboard
+"+y copy to system clipboard
+"+p paste from system clipboard
 I insert mode at beginning of line
 A insert mode at end of line

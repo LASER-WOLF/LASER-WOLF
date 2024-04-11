@@ -5,8 +5,8 @@
 # DOCUMENTATION:
  - Godot docs                          https://docs.godotengine.org/
     + GDScript style guide             https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/gdscript_styleguide.html
- - Pygame docs                         https://www.pygame.org/docs/
  - PEP 8: Style Guide for Python Code  https://peps.python.org/pep-0008/
+ - Pygame docs                         https://www.pygame.org/docs/
  - SDL Wiki                            https://wiki.libsdl.org/
  - NESdev Wiki                         https://www.nesdev.org/wiki/
 
@@ -36,16 +36,23 @@
     + Master the Linux Terminal & Bash Shell   https://pikuma.com/courses/linux-unix-command-line-bash-shell
     + Understanding Bitshifting Operations     https://pikuma.com/courses/bit-shifting-operator-tutorial
     + NES Programming with 6502 Assembly       https://pikuma.com/courses/nes-game-programming-tutorial
+      + https://github.com/LASER-WOLF/NesVideoGame/
     + Raycasting Engine Programming with C     https://pikuma.com/courses/raycasting-engine-tutorial-algorithm-javascript
+      + https://github.com/LASER-WOLF/RaycastingEngine
     + 3D Computer Graphics Programming         https://pikuma.com/courses/learn-3d-computer-graphics-programming
+      + https://github.com/LASER-WOLF/3DSoftwareRenderer
     + C++ Game Engine Programming              https://pikuma.com/courses/cpp-2d-game-engine-development
+      + https://github.com/LASER-WOLF/2DGameEngine
  - Jasper Flick, Catlike Coding (Unity/Godot)  https://catlikecoding.com/
  - GDQuest (Godot)                             https://www.gdquest.com/
 
 
 # BOOKS & ZINES:
- - Brian W. Kernighan & Dennis M. Ritchie, C Programming Language, Second Edition
- - Robert Nystrom, Game Programming Patterns             https://gameprogrammingpatterns.com/contents.html
+ - B. W. Kernighan & D. M. Ritchie, The C Programming Language, Second Edition
+ - ISO/IEC 9899:1999 (C99 standard)
+ - S.B Lippmann, J. Lajoie & B. Moo, C++ Primer, Fifth Edition
+ - Bjarne Stroustrup, The C++ Programming Language, Fourth Edition
+ - Robert Nystrom, Game Programming Patterns             https://gameprogrammingpatterns.com/
  - Eric Lengyel, Foundations of Game Engine Development  https://foundationsofgameenginedev.com/
  - Michael Abrash, Graphics Programming Black Book       https://www.drdobbs.com/parallel/graphics-programming-black-book/184404919
  - Real-Time Rendering, Fourth Edition                   https://www.realtimerendering.com/
@@ -59,20 +66,21 @@
 
 
 # PAPERS & ARTICLES:
- - Gustavo Pezzi, Fundamental Math for Game Developers                   https://pikuma.com/blog/math-for-game-developers
- - Glenn Fiedler, Fix Your Timestep!                                     https://gafferongames.com/post/fix_your_timestep/
- - David Colson, How to make a simple entity-component-system in C++     https://www.david-colson.com/2020/02/09/making-a-simple-ecs.html
- - David Colson, Building a PS1 style retro 3D renderer                  https://www.david-colson.com/2021/11/30/ps1-style-renderer.html
- - Rasterization Rules & the Edge Function                               https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
- - Microsoft Direct3D Rasterization Rules                                https://docs.microsoft.com/en-us/windows/win32/direct3d9/rasterization-rules#triangle-rasterization-rules
+ - Gustavo Pezzi, Fundamental Math for Game Developers                           https://pikuma.com/blog/math-for-game-developers
+ - Gustavo Pezzi, Oversimplified History of Retro Game Consoles for Programmers  https://pikuma.com/blog/game-console-history-for-programmers
+ - Glenn Fiedler, Fix Your Timestep!                                             https://gafferongames.com/post/fix_your_timestep/
+ - David Colson, How to make a simple entity-component-system in C++             https://www.david-colson.com/2020/02/09/making-a-simple-ecs.html
+ - David Colson, Building a PS1 style retro 3D renderer                          https://www.david-colson.com/2021/11/30/ps1-style-renderer.html
+ - Rasterization Rules & the Edge Function                                       https://www.scratchapixel.com/lessons/3d-basic-rendering/rasterization-practical-implementation/rasterization-stage
+ - Microsoft Direct3D Rasterization Rules                                        https://docs.microsoft.com/en-us/windows/win32/direct3d9/rasterization-rules#triangle-rasterization-rules
  - Triangle rasterizer:
-    + (1/3) Juan Pineda, A Parallel Algorithm for Polygon Rasterization  https://www.cs.drexel.edu/~deb39/Classes/Papers/comp175-06-pineda.pdf
-    + (2/3) Fabian Giesen, Optimizing the basic rasterizer               https://fgiesen.wordpress.com/2013/02/10/optimizing-the-basic-rasterizer/
-    + (3/3) Kristoffer Dyrkorn, A fast and precise triangle rasterizer   https://kristoffer-dyrkorn.github.io/triangle-rasterizer/
- - Chris Hecker, Texture Mapping Technical Articles                      https://www.chrishecker.com/Miscellaneous_Technical_Articles
- - Kok-Lim Low, Perspective-Correct Interpolation                        https://s3.amazonaws.com/thinkific/file_uploads/167815/attachments/c06/b72/f58/KokLimLow-PerspectiveCorrectInterpolation.pdf
- - Kenneth I. Joy, On-Line Computer Graphics Notes: Clipping             https://import.cdn.thinkific.com/167815/JoyKennethClipping-200905-175314.pdf
- - Peter Shirley, Ray Tracing in One Weekend                             https://raytracing.github.io/books/RayTracingInOneWeekend.html
+    + (1/3) Juan Pineda, A Parallel Algorithm for Polygon Rasterization          https://www.cs.drexel.edu/~deb39/Classes/Papers/comp175-06-pineda.pdf
+    + (2/3) Fabian Giesen, Optimizing the basic rasterizer                       https://fgiesen.wordpress.com/2013/02/10/optimizing-the-basic-rasterizer/
+    + (3/3) Kristoffer Dyrkorn, A fast and precise triangle rasterizer           https://kristoffer-dyrkorn.github.io/triangle-rasterizer/
+ - Chris Hecker, Texture Mapping Technical Articles                              https://www.chrishecker.com/Miscellaneous_Technical_Articles
+ - Kok-Lim Low, Perspective-Correct Interpolation                                https://s3.amazonaws.com/thinkific/file_uploads/167815/attachments/c06/b72/f58/KokLimLow-PerspectiveCorrectInterpolation.pdf
+ - Kenneth I. Joy, On-Line Computer Graphics Notes: Clipping                     https://import.cdn.thinkific.com/167815/JoyKennethClipping-200905-175314.pdf
+ - Peter Shirley, Ray Tracing in One Weekend                                     https://raytracing.github.io/books/RayTracingInOneWeekend.html
 
 
 # WEBSITES:
