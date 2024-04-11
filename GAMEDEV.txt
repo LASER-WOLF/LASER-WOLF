@@ -9,6 +9,7 @@
  - Pygame docs                         https://www.pygame.org/docs/
  - SDL Wiki                            https://wiki.libsdl.org/
  - NESdev Wiki                         https://www.nesdev.org/wiki/
+ - C# docs                             https://learn.microsoft.com/en-us/dotnet/csharp/
 
 
 # SOURCE CODE:
@@ -51,18 +52,19 @@
  - B. W. Kernighan & D. M. Ritchie, The C Programming Language, Second Edition
  - ISO/IEC 9899:1999 (C99 standard)
  - S.B Lippmann, J. Lajoie & B. Moo, C++ Primer, Fifth Edition
- - Bjarne Stroustrup, The C++ Programming Language, Fourth Edition
- - Robert Nystrom, Game Programming Patterns             https://gameprogrammingpatterns.com/
- - Eric Lengyel, Foundations of Game Engine Development  https://foundationsofgameenginedev.com/
- - Michael Abrash, Graphics Programming Black Book       https://www.drdobbs.com/parallel/graphics-programming-black-book/184404919
- - Real-Time Rendering, Fourth Edition                   https://www.realtimerendering.com/
- - GPU Gems #1 - #3                                      https://developer.nvidia.com/gpugems/gpugems
- - Dylan Bennett, Game Development with PICO-8           https://mboffin.itch.io/gamedev-with-pico-8-issue1
+ - Bjarne Stroustrup, The C++ Programming Language, Fourth Edition  https://www.stroustrup.com/4th.html 
+ - Jon Skeet, C# In Depth, Fourth Edition                           https://csharpindepth.com/
+ - Robert Nystrom, Game Programming Patterns                        https://gameprogrammingpatterns.com/
+ - Eric Lengyel, Foundations of Game Engine Development             https://foundationsofgameenginedev.com/
+ - Michael Abrash, Graphics Programming Black Book                  https://www.drdobbs.com/parallel/graphics-programming-black-book/184404919
+ - Real-Time Rendering, Fourth Edition                              https://www.realtimerendering.com/
+ - GPU Gems #1 - #3                                                 https://developer.nvidia.com/gpugems/gpugems
+ - Dylan Bennett, Game Development with PICO-8                      https://mboffin.itch.io/gamedev-with-pico-8-issue1
  - Arnaud De Bock, PICO-8 Fanzine
-    + Issue #1                                           https://sectordub.itch.io/pico-8-fanzine-1
-    + Issue #2                                           https://sectordub.itch.io/pico-8-fanzine-2
-    + Issue #3                                           https://sectordub.itch.io/pico-8-fanzine-3
-    + Issue #4                                           https://sectordub.itch.io/pico-8-fanzine-4
+    + Issue #1                                                      https://sectordub.itch.io/pico-8-fanzine-1
+    + Issue #2                                                      https://sectordub.itch.io/pico-8-fanzine-2
+    + Issue #3                                                      https://sectordub.itch.io/pico-8-fanzine-3
+    + Issue #4                                                      https://sectordub.itch.io/pico-8-fanzine-4
 
 
 # PAPERS & ARTICLES:
