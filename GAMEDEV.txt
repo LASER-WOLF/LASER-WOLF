@@ -22,8 +22,8 @@
 
 
 # YOUTUBE PLAYLISTS:
- - Gamedev #1  https://www.youtube.com/playlist?list=PLUznfNKscdcMenAaMby5wO1JI8bxJJpn1
- - Gamedev #2  https://www.youtube.com/playlist?list=PLUznfNKscdcPwi9lqA-nCmzzGjvamtTFk
+ - Gamedev #1  https://www.youtube.com/playlist?list=PLUznfNKscdcPwi9lqA-nCmzzGjvamtTFk
+ - Gamedev #2  https://www.youtube.com/playlist?list=PLUznfNKscdcMenAaMby5wO1JI8bxJJpn1
  - Devlogs     https://www.youtube.com/playlist?list=PLUznfNKscdcPTyLIUIbY98FFfMp76GD3l
  - Godot       https://www.youtube.com/playlist?list=PLUznfNKscdcNpHVcxUch_Xfsc6I8wu791
  - PICO-8      https://www.youtube.com/playlist?list=PLUznfNKscdcNqvEYwCTjIIRpgd-MUwxc-
