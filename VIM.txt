@@ -57,8 +57,8 @@
  /pattern       = search
  n              = next result
  N              = previous result
- :$s/old/new/g  = replace all (in file)
- :$s/old/new/gc = replace all (in file) with confirmations
+ :%s/old/new/g  = replace all (in file)
+ :%s/old/new/gc = replace all (in file) with confirmations
 
 
 
@@ -103,10 +103,11 @@
 
 # OTHER
 -------------------------------------------------------------------------------
- x      = delete char (command mode)
- r      = replace char (command mode)
- "+y    = copy to system clipboard
- "+p    = paste from system clipboard
- I      = insert mode at beginning of line
- A      = insert mode at end of line
-
+ x         = delete char (command mode)
+ r         = replace char (command mode)
+ "+y       = copy to system clipboard
+ "+p       = paste from system clipboard
+ I         = insert mode at beginning of line
+ A         = insert mode at end of line
+ ctrl+r *  = paste from system clipboard
+ ctrl+r "  = paste from unnamed (default) register
