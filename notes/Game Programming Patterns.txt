@@ -4,7 +4,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 
   #0: INTRODUCTION
-
   #1: DESIGN PATTERNS REVISITED
     1.1: COMMAND ............ https://gameprogrammingpatterns.com/command.html
     1.2: FLYWEIGHT .......... https://gameprogrammingpatterns.com/flyweight.html
@@ -12,22 +11,18 @@
     1.4: PROTOTYPE .......... https://gameprogrammingpatterns.com/prototype.html
     1.5: SINGLETON .......... https://gameprogrammingpatterns.com/singleton.html
     1.6: STATE .............. https://gameprogrammingpatterns.com/state.html
-    
   #2: SEQUENCING PATTERNS
     2.1: DOUBLE BUFFER ...... https://gameprogrammingpatterns.com/double-buffer.html
     2.2: GAME LOOP .......... https://gameprogrammingpatterns.com/game-loop.html
     2.3: UPDATE METHOD ...... https://gameprogrammingpatterns.com/update-method.html
-
   #3: BEHAVIORAL PATTERNS
     3.1: BYTECODE ........... https://gameprogrammingpatterns.com/bytecode.html
     3.2: SUBCLASS SANDBOX ... https://gameprogrammingpatterns.com/subclass-sandbox.html
     3.3: TYPE OBJECT ........ https://gameprogrammingpatterns.com/type-object.html
-
   #4: DECOUPLING PATTERNS
     4.1: COMPONENT .......... https://gameprogrammingpatterns.com/component.html
     4.2: EVENT QUEUE ........ https://gameprogrammingpatterns.com/event-queue.html
     4.3: SERVICE LOCATOR .... https://gameprogrammingpatterns.com/service-locator.html
-
   #5: OPTIMIZATION PATTERNS
     5.1: DATA LOCALITY ...... https://gameprogrammingpatterns.com/data-locality.html
     5.2: DIRTY FLAG ......... https://gameprogrammingpatterns.com/dirty-flag.html
@@ -37,16 +32,6 @@
 ///////////////////////////////////////////////////////////////////////////////
 // #0 | INTRODUCTION                                                     p. 1
 ///////////////////////////////////////////////////////////////////////////////
-
- - Sections for each pattern:
-   + Intent: description of a pattern in terms of the problem it intends to solve
-   + Motivation: An example problem we will apply the pattern to
-   + Pattern: Dry textbook description of the pattern
-   + When to use it: When it is useful and when it should be avoided
-   + Keep in mind: Consequences and risks when using the pattern
-   + Sample code: A full implementation of the pattern in C++
-   + Design Descisions: Different options to consider when applying a pattern
-   + See Also: Relationship to other patterns and real world examples
 
  - Unlike concrete algorithms, a pattern is usually formless unless applied 
    to some specific problem. Each time you use a pattern, 
@@ -95,17 +80,22 @@
  
  - Commands are object-oriented replacements for callbacks
 
+ - Example use case: Control input handling
+
+ - The command pattern allows for easy implementation of Undo and Redo system
+
 
   2.2 | FLYWEIGHT                                                       p. 33
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
  " Use sharing to support large numbers of fine-grained objects efficiently. "
 
- - Instead of storing say a texture and mesh for each instanste of a 3d game
+ - Example use case:
+   Instead of storing say a texture and mesh for each instance of a 3d game
    object we can instead store the mesh/texture as a model that can be shared
    between multiple game objects. The game object only stores a reference to
    the model. This is used togther with instanced rendering (GPU) to only send
-   the three model data to the GPU once, even when rendering the same object
+   the model data to the GPU once, even when rendering the same object
    thousands of times.
 
  - Seperates the object's data into two kinds. 
@@ -150,7 +140,7 @@
    and create new objects by copying this prototype.
 
  - Example use case: Data in JSON files to avoid typing duplicate values
-   over and over
+   over and over.
 
 
   2.5 | SINGLETON                                                       p. 73
