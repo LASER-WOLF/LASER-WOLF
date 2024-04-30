@@ -48,7 +48,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 
  - Abstraction and decoupling make evolving your program faster and easier,
-   but dont' waste time doing them unless you're confident the code in question
+   but don't waste time doing them unless you're confident the code in question
    needs that flexibility.
  
  - Think about design for performance throughout your development cycle, but
@@ -277,14 +277,16 @@
    Simulate a collection of independent objects by telling each to process
    one frame of behaviour at a time.
 
- - ...
-
+ - The game world maintains a collection of objects. Each object implements an
+   update method that simulates one frame of the object's behavior. Each frame,
+   the game updates evey object in the collection.
 
 ///////////////////////////////////////////////////////////////////////////////
 // #4 | BEHAVIORAL PATTERNS                                            p. 153
 ///////////////////////////////////////////////////////////////////////////////
  
- - ...
+ - Patterns that can help to quickly define and refine a large quantity of
+   maintanable behavior
 
 
   4.1 | BYTECODE                                                       p. 155
