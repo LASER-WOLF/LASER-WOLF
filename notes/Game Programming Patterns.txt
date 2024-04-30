@@ -139,8 +139,31 @@
  " Specify the kinds of objects to create using a prototypical instance,
    and create new objects by copying this prototype.
 
+ - Make a new object by copying an existing (prototype) object. Copying the 
+   object with all it's content.
+
+ - In languges with classes we don't usually do this kinda stuff, classes can
+   handle this kind of functionality, but it can be a very usefull pattern
+   to implement when handling data for the game, 
+   e.g. data stored in JSON files.
+
  - Example use case: Data in JSON files to avoid typing duplicate values
    over and over.
+
+   {
+     "name": "elf warrior",
+     "hp": 30,
+     "weaknesses": ["fire"],
+     "favorite_things": ["trees", "long hair"]
+   }
+
+   {
+     "name": "elf wizard"
+     "prototype": "elf warrior", // copies the values from "elf warrior"
+     "hp": 20,
+     "spells": ["roots"]
+   }
+
 
 
   2.5 | SINGLETON                                                       p. 73
@@ -152,35 +175,108 @@
  - Despite noble intentions, the Singleton pattern usually 
    does more harm than good.
 
+ - Globals can be problematic. Think carefully before implmenting a singleton
+   if it is actually necessary and if the implementation can be done in a
+   different way. Is the class really necessary?  Can we use a static class 
+   instead? Or give access to the class through some other way?
+
 
   2.6 | STATE                                                           p. 87
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ " Allow an object to alter its behaviour when its internal state changes.
+   The object will appear to change it's class. "
+
+ - Finite state machine (FSM)
+   + Fixed set of states
+   + Can only be in one state at a time
+   + A simple one can be with enums and switch statements
+
+ - The state pattern: Make a state machine, not with enums and switches but
+   by using state specific classes.
  
- - ...
+ - Concurrent state machine: Multiple state machines running at the same time
+
+ - Hierarchical state machine: States and states within those states
+
+ - Pushdown automata: Push and pop states on stack, allows history of states
+   and makes it easy to return to previous state
+
+ - Example use case: Character state (running, standing, in-air, swimming, etc.)
 
 
 ///////////////////////////////////////////////////////////////////////////////
 // #3 | SEQUENCING PATTERNS                                            p. 105
 ///////////////////////////////////////////////////////////////////////////////
  
- - ...
+ - As world builders, we must invent time and craft the gears that drive
+   our game's great clock.
 
 
   3.1 | DOUBLE BUFFER                                                  p. 107
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
- - ...
+   Cause a series of operations to appear instantaneous or simultaneous. 
+ 
+ - Have two indexed instances of the thing you want to update.
+   
+   Buffer buffers[2];
+   Buffer* current = buffers[0];
+   Buffer* next = buffers[1];
+
+   Update one while allowing reading from the other.
+
+   current->drawThingsInTheBuffer();
+   next->renderThingsFromTheBuffer();
+
+   Then swap the buffers after every finished update of a buffer:
+
+   void swap() {
+       Buffer* temp = current;
+       current = next;
+       next = temp;
+   }
+
+   This is very usefull in rendering, as it allows allows us to have an 
+   incomplete famebuffer that we can update pixel by pixel, while also always
+   having a "finished" framebuffer ready for rendering.
+
+ - Example use case: Framebuffer
+
+ - Other example use cases can be in physics and AI
 
 
   3.2 | GAME LOOP                                                      p. 123
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
- - ...
+   Decouple the progression of game time from user input and processor speed.
+
+ - A game loop runs continuously during gameplay. Each turn of the loop, it
+   processes user input without blocking, updates the game state, and render
+   the game. It tracks the passage of time to control the rate of gameplay.
+
+ - Types:
+   + Fixed time step with no synchronization
+     + Shitty and not usable in most cases
+   + Fixed time step with synchronization
+     + Capped framerate
+   + Variable time step
+     + Simple. Keeps things consistent across all framerates
+     + Non-deterministic, not good for multiplayer and physics
+   + Fixed update time step, variable rendering
+     + The most complex option, but also the most adaptable.
+     + Rendering uses variable time step, but the update method
+       runs at a fixed time step making it suitable for physics
+       updates and such..
+     + Deterministic
 
 
   3.3 | UPDATE METHOD                                                  p. 139
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
+   Simulate a collection of independent objects by telling each to process
+   one frame of behaviour at a time.
+
  - ...
 
 
@@ -194,17 +290,26 @@
   4.1 | BYTECODE                                                       p. 155
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
+   Give behaviour the flexability of data by encoding it as instructions for
+   a virtual machine.
+
  - ...
 
 
   4.2 | SUBCLASS SANDBOX                                               p. 181
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
+   Define behaviour in a subclass using a set of operations provided by 
+   its base class.
+
  - ...
 
 
   4.3 | TYPE OBJECT                                                    p. 193
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ 
+   Allow the flexible creation of new "classes" by creaing a class, each
+   instance of which represents a different type of object.
  
  - ...
 
@@ -214,27 +319,34 @@
 ///////////////////////////////////////////////////////////////////////////////
 // #5 | DECOUPLING PATTERNS                                            p. 211
 ///////////////////////////////////////////////////////////////////////////////
- 
+
  - ...
 
 
   5.1 | COMPONENT                                                      p. 213
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- 
+  
+   Allow a single entity to span multiple domains without coupling 
+   the domains to each other.
+
  - ...
 
 
   5.2 | EVENT QUEUE                                                    p. 233
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
+   Decouple when a message or event is sent from when it is processed.
+
  - ...
 
 
   5.3 | SERVICE LOCATOR                                                p. 251
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
- - ...
+   Provide a global point of access to a service without coupling users
+   to the concrete class that implements it.
 
+ - ...
 
 
 
@@ -247,25 +359,36 @@
 
   6.1 | DATA LOCALITY                                                  p. 269
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
- 
+
+   Accelerate memory access by arranging data to take advantage
+   of CPU caching.
+
  - ...
 
 
   6.2 | DIRTY FLAG                                                     p. 291
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
+   Avoid unneccessary work by deferring it until the result is needed.
+
  - ...
 
 
   6.3 | OBJECT POOL                                                    p. 305
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
+   Improve performance and memory use by reusing objects from a fixed pool
+   instead of allocating and freeing them individually.
+
  - ...
 
 
   6.4 | SPATIAL PARTION                                                p. 321
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
  
+   Efficiently locate objects by storing them in a data structure 
+   organized by their positions.
+
  - ...
 
 
