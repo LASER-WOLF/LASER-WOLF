@@ -9,7 +9,6 @@
  - Pygame docs                         https://www.pygame.org/docs/
  - SDL Wiki                            https://wiki.libsdl.org/
  - NESdev Wiki                         https://www.nesdev.org/wiki/
- - C# docs                             https://learn.microsoft.com/en-us/dotnet/csharp/
 
 
 # SOURCE CODE:
@@ -29,7 +28,6 @@
  - PICO-8      https://www.youtube.com/playlist?list=PLUznfNKscdcNqvEYwCTjIIRpgd-MUwxc-
  - NES         https://www.youtube.com/playlist?list=PLUznfNKscdcPw5CnWLlj42EjGwv9AwlEK
  - Coding      https://www.youtube.com/playlist?list=PLUznfNKscdcN4GoQADvhbC8ER_ny3Wl-S
- - C++         https://www.youtube.com/playlist?list=PLlrATfBNZ98dudnM48yfGUldqGD0S4FFb
 
 
 # COURSES:
@@ -45,7 +43,6 @@
     + C++ Game Engine Programming              https://pikuma.com/courses/cpp-2d-game-engine-development
       + https://github.com/LASER-WOLF/2DGameEngine
  - Jasper Flick, Catlike Coding (Unity/Godot)  https://catlikecoding.com/
- - GDQuest (Godot)                             https://www.gdquest.com/
 
 
 # BOOKS & ZINES:
@@ -129,20 +126,6 @@
     + (C)   Flecs       https://github.com/SanderMertens/flecs
  - Other
     + (C++) glm         https://github.com/g-truc/glm
-    + (C++) Sol         https://github.com/ThePhD/sol2
-
-
-# GODOT PLUGINS:
- - Dialogic            https://github.com/coppolaemilio/dialogic
- - JamCountdown        https://github.com/AndresGamboaA/JamCountdown
- - ridiculous_coding   https://github.com/jotson/ridiculous_coding
- - Godot Trail System  https://github.com/OBKF/Godot-Trail-System
- - SmartShape2D        https://github.com/SirRamEsq/SmartShape2D
- - HeightMap terrain   https://github.com/Zylann/godot_heightmap_plugin
- - Scatter             https://github.com/HungryProton/scatter
- - Godot input buffer  https://github.com/drkitt/godot-input-buffer
- - Polyliner           https://github.com/Firepal/godot-polyliner
- - Controller Icons    https://github.com/rsubtil/controller_icons
 
 
 # TOOLS:
