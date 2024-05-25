@@ -295,7 +295,7 @@
    Give behaviour the flexability of data by encoding it as instructions for
    a virtual machine.
 
- - ...
+ - The most complex pattern in the book.
 
 
   4.2 | SUBCLASS SANDBOX                                               p. 181
@@ -304,7 +304,10 @@
    Define behaviour in a subclass using a set of operations provided by 
    its base class.
 
- - ...
+ - A base class defines an abstract sandbox method and several provided
+   operations. Marking them protected makes it clear that they are for use by
+   derived classes. Each derived sandboxed subclass implements the sandbox
+   method using the provided operations.
 
 
   4.3 | TYPE OBJECT                                                    p. 193
@@ -313,7 +316,15 @@
    Allow the flexible creation of new "classes" by creaing a class, each
    instance of which represents a different type of object.
  
- - ...
+ - Define a type object class and a typed object class. Each type object
+   instance represents a different logical type. Each typed object stores a
+   reference to the object that describes its type.
+   Instance-specific data is stored in the typed object instance, and data or
+   behaviour that should be shared across all instances of the same conceptual
+   type is stored in the type object. Objects referencing the same type object
+   will function as if they were the same type. This lets us share data and
+   behaviour across a set of similar objects, much like subclassing lets us do,
+   but without having a fixed set of hard-coded subclasses.
 
 
 
@@ -322,7 +333,9 @@
 // #5 | DECOUPLING PATTERNS                                            p. 211
 ///////////////////////////////////////////////////////////////////////////////
 
- - ...
+ - When we say two pieces of code are "decoupled" we mean a change in one 
+   usually doesn't require a change in the other.
+   This makes it much easier to make changes to the code at a later point.
 
 
   5.1 | COMPONENT                                                      p. 213
