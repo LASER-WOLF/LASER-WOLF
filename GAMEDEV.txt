@@ -9,6 +9,8 @@
  - Pygame docs                         https://www.pygame.org/docs/
  - SDL Wiki                            https://wiki.libsdl.org/
  - NESdev Wiki                         https://www.nesdev.org/wiki/
+ - PICO-8 User Manual                  https://www.lexaloffle.com/dl/docs/pico-8_manual.html
+ - Raylib Cheatsheet                   https://www.raylib.com/cheatsheet/cheatsheet.html
 
 
 # SOURCE CODE:
@@ -82,6 +84,16 @@
  - Kok-Lim Low, Perspective-Correct Interpolation                                https://s3.amazonaws.com/thinkific/file_uploads/167815/attachments/c06/b72/f58/KokLimLow-PerspectiveCorrectInterpolation.pdf
  - Kenneth I. Joy, On-Line Computer Graphics Notes: Clipping                     https://import.cdn.thinkific.com/167815/JoyKennethClipping-200905-175314.pdf
  - Peter Shirley, Ray Tracing in One Weekend                                     https://raytracing.github.io/books/RayTracingInOneWeekend.html
+ - Amit Patel, Amit’s A* Pages                                                   http://theory.stanford.edu/~amitp/GameProgramming/
+ - Amit Patel, Introduction to the A* Algorithm                                  https://www.redblobgames.com/pathfinding/a-star/introduction.html
+ - Amit Patel, Implementation of A*                                              https://www.redblobgames.com/pathfinding/a-star/implementation.html
+ - Albert Ford, Symmetric Shadowcasting                                          https://www.albertford.com/shadowcasting/
+ - Bob Nystrom, What the Hero Sees: Field-of-View for Roguelikes                 https://journal.stuffwithstuff.com/2015/09/07/what-the-hero-sees/
+ - Amit Patel, Wraparound square tile maps on a sphere                           https://www.redblobgames.com/x/1938-square-tiling-of-sphere/
+ - Ken Perlin, An image synthesizer                                              https://dl.acm.org/doi/pdf/10.1145/325165.325247
+ - Ken Perlin, Improving noise                                                   https://mrl.nyu.edu/~perlin/paper445.pdf
+ - Ken Perlin, Implementing Improved Perlin Noise                                https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-5-implementing-improved-perlin-noise
+ - Amit Patel, Making maps with noise functions                                  https://www.redblobgames.com/maps/terrain-from-noise/
 
 
 # WEBSITES:
@@ -99,7 +111,7 @@
  - Reddit, Gamedev multireddit  https://www.reddit.com/user/laserwolf/m/gamedev/
  - Discord, Godot Engine        https://discord.gg/4JBkykG
  - Discord, PICO-8              https://discord.gg/nMVEeVFkVD
-
+ - Discord, Raylib              https://discord.gg/raylib
 
 # GAME JAMS:
  - The 7DRL Challenge  https://7drl.com/
@@ -108,14 +120,14 @@
 
 # C & C++ LIBRARIES:
  - Graphics, audio & hardware access
+    + (C)   raylib      https://github.com/raysan5/raylib
     + (C)   SDL         https://github.com/libsdl-org/SDL
     + (C++) SFML        https://github.com/SFML/SFML
-    + (C)   raylib      https://github.com/raysan5/raylib
     + (C)   GLFW        https://github.com/glfw/glfw
  - Physics
+    + (C++) Bullet      https://github.com/bulletphysics/bullet3
     + (C++) Box2D       https://github.com/erincatto/box2d
     + (C)   Chipmunk2D  https://github.com/slembcke/Chipmunk2D
-    + (C++) Bullet      https://github.com/bulletphysics/bullet3
  - UI
     + (C++) DearImGui   https://github.com/ocornut/imgui
  - Logging
@@ -143,6 +155,5 @@
  - Fonts, The Ultimate Oldschool PC Font Pack  https://int10h.org/oldschool-pc-fonts/
  - Mixed, itch.io                              https://itch.io/game-assets/free
  - Mixed, Kenney                               https://kenney.nl/assets
- - 3D models, Sketchfab                        https://sketchfab.com/
  - Lospec Palette list                         https://lospec.com/palette-list
 
