@@ -94,6 +94,7 @@
  - Ken Perlin, Improving noise                                                   https://mrl.nyu.edu/~perlin/paper445.pdf
  - Ken Perlin, Implementing Improved Perlin Noise                                https://developer.nvidia.com/gpugems/gpugems/part-i-natural-effects/chapter-5-implementing-improved-perlin-noise
  - Amit Patel, Making maps with noise functions                                  https://www.redblobgames.com/maps/terrain-from-noise/
+ - Inigo Quilez, Value noise derivatives:                                        https://iquilezles.org/articles/morenoise/
 
 
 # WEBSITES:

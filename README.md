@@ -1,3 +1,21 @@
+///////////////////////////////////////////////////////////////////////////////
+// README.md
+///////////////////////////////////////////////////////////////////////////////
+
+test
+
+
+  NOR:
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+test2
+
+
+  ENG:
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+test3
+
 Hello hello & welcome to GitHub profile ✨ ✨
 
 My name is Casper & I'm currently hard at work expanding my mind palace with wonderful knowledge of mind-boggling computer science teachings and bewildering mathematical equations. 
