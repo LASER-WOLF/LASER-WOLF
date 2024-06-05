@@ -1,4 +1,4 @@
-///////////////////////////////////////////////////////////////////////////////
+```///////////////////////////////////////////////////////////////////////////////
 
 // README.md
 
@@ -30,4 +30,4 @@ Apart from the forementioned interest in the realm of computers and such things 
 
 > [!TIP]
 > Feel free to take a look at [GAMEDEV.txt](GAMEDEV.txt) for a nice little list of video game development resources.
-
+```
