@@ -1,26 +1,17 @@
-///////////////////////////////////////////////////////////////////////////////
+### Om meg:
 
-// README.md
+Hei hei, mitt navn er Casper ...
 
-///////////////////////////////////////////////////////////////////////////////
+...
 
-[link #1](link.com) &middot; [link #2](link.com) &middot; [link #3](link.com)
-
-
-  NOR:
-///////////////////////////////////////////////////////////////////////////////
-
-test2
+...
 
 
-  ENG:
-///////////////////////////////////////////////////////////////////////////////
+### About me:
 
-test3
+Hello hello & welcome to my GitHub profile ✨ ✨
 
-Hello hello & welcome to GitHub profile ✨ ✨
-
-My name is Casper & I'm currently hard at work expanding my mind palace with wonderful knowledge of mind-boggling computer science teachings and bewildering mathematical equations. 
+My name is Casper & I'm currently hard at work expanding my mind palace with wonderful knowledge of bewildering computer science teachings and mind-boggling mathematical equations. 
 
 My main fields of interest are in the dark arts of video game development and 3D graphics programming.
 
