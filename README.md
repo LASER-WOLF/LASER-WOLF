@@ -1,25 +1,18 @@
-### Om meg:
-
 Hei! Mitt navn er Casper og jeg deltar for tiden på backend kursing i C# arrangert av Jobloop.
 
-Innenfor programmering er jeg spesielt interessert i spillutvikling og grafikkprogrammering, og i den sammenheng jobber jeg for tiden med et [3D roguelike prosjekt](https://github.com/LASER-WOLF/Roguelike) som et øvelsesprosjekt i C# der jeg har som formål å lære mer om en rekke algoritmer, prosedyregenerering, designmønstre og 3D rendering. Mer detaljer om projektet er å finne i [NOTES.txt](https://github.com/LASER-WOLF/Roguelike/blob/main/NOTES.txt) og på [laser-wolf.github.io](https://laser-wolf.github.io/). 
+Jeg er svært interessert i datateknologi generelt, men spesielt interessert i felt som spillutvikling, grafikkprogrammering og "procedural generation".
 
-C# er et ganske enkelt programmeringsspråk å jobbe med og passer ypperlig til dette prosjektet, men på sikt har jeg et ønske om å bli dyktigere i C og C++, så satser på å ta fokus på både C og C++ videre i fremtidige prosjekter.
+I anledning C# kursing jobber jeg for tiden med et øvelse prosjekt der jeg har som formål å lære mer om en rekke algoritmer, designmønstre, 3D rendering og programvareutvikling generelt.
+Prosjektet ligger her: [LASER-WOLF/Roguelike](https://github.com/LASER-WOLF/Roguelike).
+Litt skriv om prosessen så langt finnes i form av devlogs på [laser-wolf.github.io](https://laser-wolf.github.io/) og detaljer om planen videre er å finne i [LASER-WOLF/Roguelike/NOTES.txt](https://github.com/LASER-WOLF/Roguelike/blob/main/NOTES.txt).
 
-I tillegg til data er jeg svært intressert i blant annet [film](https://letterboxd.com/LASER_WOLF/) og seiling.
+Når det gjelder mer langsiktige læremål har jeg et ønske om å bli flinkere på lavnivåspråk som 6502 assembly, C og C++.
+Og ved ledig stund har jeg planlagt å gjennomføre følgende kursing: [Atari 2600 Programming with 6502 Assembly](https://pikuma.com/courses/learn-assembly-language-programming-atari-2600-games), [2D Game Physics Programming](https://pikuma.com/courses/game-physics-engine-programming) og [PS1 Programming with MIPS Assembly & C](https://pikuma.com/courses/ps1-programming-mips-assembly-language).
 
 
-### About me:
+I tillegg til data er jeg også svært interessert i blant annet terrengsykling/bikepacking, [seiling](https://www.marinetraffic.com/en/ais/details/ships/shipid:6327161/mmsi:257040270/) og [film](https://letterboxd.com/LASER_WOLF/) (jeg er også med i [Bergen filmklubb](https://bergenfilmklubb.no/) og deltar i drifting av klubben).
 
-Hello hello & welcome to my GitHub profile ✨ ✨
-
-My name is Casper & I'm currently hard at work expanding my mind palace with wonderful knowledge of bewildering computer science teachings and mind-boggling mathematical equations. 
-
-My main fields of interest are in the dark arts of video game development and 3D graphics programming.
-
-I'm currently attending a backend course in C# and working on a [3D roguelike project](https://github.com/LASER-WOLF/Roguelike).
-
-Apart from the forementioned interest in the realm of computers and such things I'm also quite into other stuff too like [films](https://letterboxd.com/LASER_WOLF/), and devoted to joyous past-time activites such as mountain biking and sailing.
 
 > [!TIP]
-> Feel free to take a peek at [GAMEDEV.txt](GAMEDEV.txt) for a nice little list of video game development resources.
+> Ta gjerne en kikk på [GAMEDEV.txt](GAMEDEV.txt) for en liten liste jeg har satt sammen av nyttige ressurser for spillutvikling.<br><br>
+> Eller sjekk ut [LASER-WOLF/dotfiles](https://github.com/LASER-WOLF/dotfiles) for en liten guide til hvordan man kan sette opp Arch Linux med Ly/i3/Rofi (konfigurasjonsfiler, fonts, fargepaletter, scripts og lignende er å finne i repoet).
