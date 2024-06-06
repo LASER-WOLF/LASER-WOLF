@@ -1,8 +1,10 @@
 ### Om meg:
 
-Hei hei! ✨ ✨ Mitt navn er Casper og jeg deltar for tiden på backend kursing i C# arrangert av Jobloop.
+Hei! Mitt navn er Casper og jeg deltar for tiden på backend kursing i C# arrangert av Jobloop.
 
-Jeg er spesielt interessert i spillutvikling og grafikkprogrammering, og i den sammenheng jobber jeg for tiden med et [3D roguelike prosjekt](https://github.com/LASER-WOLF/Roguelike) som et øvelsesprosjekt i C# der jeg har som formål å lære mer om en rekke algoritmer, prosedyregenerering, designmønstre og 3D rendering. Mer detaljer om projektet er å finne i [NOTES.txt](https://github.com/LASER-WOLF/Roguelike/blob/main/NOTES.txt). C# er et ganske enkelt programmeringsspråk å jobbe med og passer ypperlig til dette prosjektet, men på sikt har jeg et ønske om å bli dyktigere i C og C++, så satser på å ta fokus på både C og C++ videre i fremtidige prosjekter.
+Innenfor programmering er jeg spesielt interessert i spillutvikling og grafikkprogrammering, og i den sammenheng jobber jeg for tiden med et [3D roguelike prosjekt](https://github.com/LASER-WOLF/Roguelike) som et øvelsesprosjekt i C# der jeg har som formål å lære mer om en rekke algoritmer, prosedyregenerering, designmønstre og 3D rendering. Mer detaljer om projektet er å finne i [NOTES.txt](https://github.com/LASER-WOLF/Roguelike/blob/main/NOTES.txt) og på [laser-wolf.github.io](https://laser-wolf.github.io/). 
+
+C# er et ganske enkelt programmeringsspråk å jobbe med og passer ypperlig til dette prosjektet, men på sikt har jeg et ønske om å bli dyktigere i C og C++, så satser på å ta fokus på både C og C++ videre i fremtidige prosjekter.
 
 I tillegg til data er jeg svært intressert i blant annet [film](https://letterboxd.com/LASER_WOLF/) og seiling.
 
