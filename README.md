@@ -1,6 +1,6 @@
 Hei! Mitt navn er Casper og jeg deltar for tiden i C# backend kursing arrangert av Jobloop.
 
-Jeg er svært interessert i datateknologi generelt, men spesielt interessert i felt som spillutvikling, grafikkprogrammering og "procedural generation".
+Jeg er svært interessert i datateknologi generelt, men spesielt interessert i felt som spillutvikling, grafikkprogrammering og *procedural generation*.
 
 I anledning C# kursing jobber jeg for tiden med et øvelse prosjekt der jeg har som formål å lære mer om en rekke algoritmer, designmønstre, 3D rendering og programvareutvikling.
 Prosjektet ligger her: [LASER-WOLF/Roguelike](https://github.com/LASER-WOLF/Roguelike).
